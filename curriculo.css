@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+  --coresConteudos:powderblue;  
+  --coresFundo:azure;
+  --coresTexto:#000000;
+}
+
+                /* geral */
+
+*{
+  font-family:"Open Sans", sans-serif ;
+  padding: 0;
+  margin: 0;
+  
+}
+html{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+                /* header */
+
+header{
+  background-color: var(--coresFundo) !important;
+  
+}
+
+.divA{
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0 ;
+}
+h1{
+  text-align: center;
+  font-size:50px ;
+}
+
+.divA a{
+  text-decoration: none;
+  color: var(--coresTexto);
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+  transition: 0.2s;
+}
+.divA a:hover{
+  font-weight: 700;
+  transition: 0.2s;
+
+  color: var(--coresFundo);
+}
+.subtitulo{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+.iframe__foto{
+  width: 268px;
+  height: 268px;
+  border: 5px solid var(--coresTexto);
+  border-radius:100%;
+  margin-left:42.3% ;
+}
+/* .iframe__foto:hover{
+transform: scale(1.3);
+} */
+
+.conteudos__hr{
+  background-color: var(--coresConteudos);
+  border: 5px solid var(--coresTexto);
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.conteudos__hr hr{
+  border: 2px solid var(--coresTexto);
+}
+
+                /* body */
+.body{
+background-color: var(--coresConteudos);
+border-radius: 15px;
+border: 10px solid var(--coresTexto);  
+margin-left: 5px;
+margin-right: 8px;
+}
+
+
+
+                /* base do Iframe principal */
+
+
+.iframe__main{
+  border: 0px;
+  border-radius: 15px; 
+  background-color: var(--coresConteudos) !important;
+}
+
+
+
+                /* formaçaoCSS */
+                
+
+
+.h22{
+  /* background-color: antiquewhite; */
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  margin-left: 42%;
+  width: 180px;
+  
+}
+.formacoes li{
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+
+
+                /* ContatoCSS */
+
+.contatos li{
+  font-size: 35px;
+  padding: 30px;
+  margin-left: 10px;
+  
+}
+
+.contatos i{
+  margin-right: 15px;
+}
+.contatos a{
+  text-decoration: none;
+}
+
+
+                /* HabilidadesCss */
+
+
+.habilidades{
+  padding: 0; /* Remove o padding padrão */
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  list-style-position: inside;
+}
+.habilidades li{
+  padding-top: 10px;
+  font-size: 45px;
+  align-items: center;
+  text-align: center;
+}
+
+
+.habilidades i{
+  margin-right: 15px;
+}
+.habilidades #ii{
+  margin-right: 0;
+}
+
+
+                  /* SobreCss */
+
+.sobreP{
+  font-size: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
